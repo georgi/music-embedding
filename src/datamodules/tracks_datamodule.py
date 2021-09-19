@@ -26,7 +26,7 @@ class TracksDataModule(LightningDataModule):
     """
 
     train_tracks: List[Track] = []
-    data_val: List[Track] = []
+    val_tracks: List[Track] = []
     batch_size: int
     num_workers: int
     pin_memory: bool
